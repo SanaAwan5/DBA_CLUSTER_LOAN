@@ -1,0 +1,32 @@
+current path: saved_models/mnist_pretrain/model_loan_Apr.01_17.15.10
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+load data done
+create model done
+Poisoned following participants: ['MD', 'MI', 'ME']
+We use following environment for graphs:  loan_DBA
+Server Epoch:1 choose agents : ['AR', 'IA', 'FL', 'MA', 'IN', 'MN', 'CA', 'AZ', 'KY', 'GA'].
+___Train Local_Simple,  epoch   1, local model AR, internal_epoch   1,  Average loss: 0.0106, Accuracy: 7794/13659 (57.0613%)

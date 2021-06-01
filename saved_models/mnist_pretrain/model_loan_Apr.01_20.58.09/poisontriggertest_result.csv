@@ -1,0 +1,5 @@
+model,trigger_name,trigger_value,epoch,average_loss,accuracy,correct_data,total_data
+global,combine,,1,0.3544212331570504,99.95767186718373,233788,233887
+global,global_in_IN_trigger,,1,0.38486510554994124,99.95510652580091,233782,233887
+global,global_in_AZ_trigger,,1,0.1997461781409231,99.96622300512641,233808,233887
+global,global_in_AR_trigger,,1,0.625860053930551,94.623899575436,221313,233887

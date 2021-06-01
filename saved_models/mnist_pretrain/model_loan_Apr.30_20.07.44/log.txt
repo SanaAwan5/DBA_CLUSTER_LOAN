@@ -1,0 +1,102 @@
+current path: saved_models/mnist_pretrain/model_loan_Apr.30_20.07.44
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+load data done
+create model done
+Poisoned following participants: ['CA', 'TX', 'FL', 'HI', 'GA', 'WA', 'PA', 'VA', 'MA', 'AZ', 'CO', 'IN', 'MI', 'ME', 'RI', 'AL', 'AK']
+We use following environment for graphs:  loan_DBA
+Server Epoch:1 choose agents : ['MS', 'HI', 'OK', 'LA', 'ND', 'WY', 'WI', 'MT', 'MA', 'DE'].
+___Train Local_Simple,  epoch   1, local model MS, internal_epoch   1,  Average loss: 0.0149, Accuracy: 5093/9869 (51.6060%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.8012, Accuracy: 295229/444748 (66.3812%), Attack Success Rate:0/444748(0.000)
+poison local model HI will poison epochs: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 92, 193, 194, 195, 196, 197, 198, 199, 200]
+poison_now
+___Test Local_Simple poisoned: True, epoch: 1: Average loss: 1.7715, Accuracy: 0/444748 (0.0000%)
+0.0
+Current lr: [0.0005]
+___PoisonTrain Local_Simple ,  epoch   1, local model HI, internal_epoch   1,  Average loss: 0.0136, Accuracy: 4430/8393 (52.7821%), train_poison_data_count8393
+Global model norm: 4.932287821085101.
+Norm before scaling: 4.951413216812744. Distance: 0.5028991393654059
+Total norm for 17 adversaries is: 4.951413216812744. distance: 0.5028991393654059
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 1.2038, Accuracy: 215474/444748 (48.4486%), Attack Success Rate:0/444748(0.000)
+___Test Local_Simple poisoned: True, epoch: 1: Average loss: 0.2862, Accuracy: 444463/444748 (99.9359%)
+___Train Local_Simple,  epoch   1, local model OK, internal_epoch   1,  Average loss: 0.0143, Accuracy: 8526/16276 (52.3839%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.7142, Accuracy: 360751/444748 (81.1136%), Attack Success Rate:0/444748(0.000)
+___Train Local_Simple,  epoch   1, local model LA, internal_epoch   1,  Average loss: 0.0139, Accuracy: 11208/20228 (55.4083%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.6849, Accuracy: 364840/444748 (82.0330%), Attack Success Rate:0/444748(0.000)
+___Train Local_Simple,  epoch   1, local model ND, internal_epoch   1,  Average loss: 0.0159, Accuracy: 1373/2822 (48.6534%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.9241, Accuracy: 190183/444748 (42.7620%), Attack Success Rate:0/444748(0.000)
+___Train Local_Simple,  epoch   1, local model WY, internal_epoch   1,  Average loss: 0.0157, Accuracy: 1709/3752 (45.5490%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.8537, Accuracy: 235868/444748 (53.0341%), Attack Success Rate:0/444748(0.000)
+___Train Local_Simple,  epoch   1, local model WI, internal_epoch   1,  Average loss: 0.0135, Accuracy: 13337/23488 (56.7822%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.6155, Accuracy: 357904/444748 (80.4734%), Attack Success Rate:0/444748(0.000)
+___Train Local_Simple,  epoch   1, local model MT, internal_epoch   1,  Average loss: 0.0158, Accuracy: 2226/4970 (44.7887%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.8588, Accuracy: 237898/444748 (53.4905%), Attack Success Rate:0/444748(0.000)
+poison local model MA will poison epochs: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 92, 193, 194, 195, 196, 197, 198, 199, 200]
+poison_now
+___Test Local_Simple poisoned: True, epoch: 1: Average loss: 1.7715, Accuracy: 0/444748 (0.0000%)
+0.0
+Current lr: [0.0005]
+___PoisonTrain Local_Simple ,  epoch   1, local model MA, internal_epoch   1,  Average loss: 0.0110, Accuracy: 24467/40748 (60.0447%), train_poison_data_count40748
+Global model norm: 4.932287821085101.
+Norm before scaling: 5.02192781583196. Distance: 0.9622108272786178
+Total norm for 17 adversaries is: 5.02192781583196. distance: 0.9622108272786178
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 1.5703, Accuracy: 330165/444748 (74.2364%), Attack Success Rate:0/444748(0.000)
+___Test Local_Simple poisoned: True, epoch: 1: Average loss: 0.0745, Accuracy: 444415/444748 (99.9251%)
+___Train Local_Simple,  epoch   1, local model DE, internal_epoch   1,  Average loss: 0.0158, Accuracy: 2252/5070 (44.4181%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.8413, Accuracy: 238901/444748 (53.7160%), Attack Success Rate:0/444748(0.000)
+time spent on training: 542.2651710510254
+[foolsgold agg] training data poison_ratio: 0.3623539995280793  data num: [9869, 8393, 16276, 20228, 2822, 3752, 23488, 4970, 40748, 5070]
+[foolsgold agg] considering poison per batch poison_fraction: 0.3623539995280793
+[foolsgold agg] wv: [0.22885709 0.         0.         1.         1.         0.
+ 0.         1.         0.         0.        ]
+___Test Target_Simple poisoned: False, epoch: 1: Average loss: 1.1081, Accuracy: 186110/444748 (41.8462%), Attack Success Rate:0/444748(0.000)
+___Test Target_Simple poisoned: True, epoch: 1: Average loss: 1.7661, Accuracy: 0/444748 (0.0000%)

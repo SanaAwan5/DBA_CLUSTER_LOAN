@@ -1,0 +1,2 @@
+model,epoch,average_loss,accuracy,correct_data,total_data
+global,1,0.3990573890278913,99.76313347898773,233333,233887

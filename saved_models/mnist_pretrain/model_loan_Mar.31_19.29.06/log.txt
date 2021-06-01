@@ -1,0 +1,2 @@
+current path: saved_models/mnist_pretrain/model_loan_Mar.31_19.29.06
+Loading data

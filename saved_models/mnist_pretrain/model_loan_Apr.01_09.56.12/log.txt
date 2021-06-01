@@ -1,0 +1,56 @@
+current path: saved_models/mnist_pretrain/model_loan_Apr.01_09.56.12
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+load data done
+create model done
+Poisoned following participants: ['CT', 'MO', 'TN']

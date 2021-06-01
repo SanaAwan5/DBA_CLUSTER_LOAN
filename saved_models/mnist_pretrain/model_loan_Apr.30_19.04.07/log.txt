@@ -1,0 +1,82 @@
+current path: saved_models/mnist_pretrain/model_loan_Apr.30_19.04.07
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+load data done
+create model done
+Poisoned following participants: ['CA', 'TX', 'FL', 'HI', 'GA', 'WA', 'PA', 'VA', 'MA', 'AZ', 'CO', 'IN', 'MI', 'ME', 'RI', 'AL', 'AK']
+We use following environment for graphs:  loan_DBA
+Server Epoch:1 choose agents : ['MS', 'HI', 'OK', 'LA', 'ND', 'WY', 'WI', 'MT', 'MA', 'DE'].
+___Train Local_Simple,  epoch   1, local model MS, internal_epoch   1,  Average loss: 0.0149, Accuracy: 5093/9869 (51.6060%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.8012, Accuracy: 295229/444748 (66.3812%), Attack Success Rate:0/444748(0.000)
+poison local model HI will poison epochs: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+poison_now
+___Test Local_Simple poisoned: True, epoch: 1: Average loss: 1.7715, Accuracy: 0/444748 (0.0000%)
+0.0
+Current lr: [0.0005]
+___PoisonTrain Local_Simple ,  epoch   1, local model HI, internal_epoch   1,  Average loss: 0.0136, Accuracy: 4430/8393 (52.7821%), train_poison_data_count8393
+Global model norm: 4.932287821085101.
+Norm before scaling: 4.951413216812744. Distance: 0.5028991393654059
+Total norm for 17 adversaries is: 4.951413216812744. distance: 0.5028991393654059
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 1.2038, Accuracy: 215474/444748 (48.4486%), Attack Success Rate:0/444748(0.000)
+___Test Local_Simple poisoned: True, epoch: 1: Average loss: 0.2862, Accuracy: 444463/444748 (99.9359%)
+___Train Local_Simple,  epoch   1, local model OK, internal_epoch   1,  Average loss: 0.0143, Accuracy: 8526/16276 (52.3839%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.7142, Accuracy: 360751/444748 (81.1136%), Attack Success Rate:0/444748(0.000)
+___Train Local_Simple,  epoch   1, local model LA, internal_epoch   1,  Average loss: 0.0139, Accuracy: 11208/20228 (55.4083%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.6849, Accuracy: 364840/444748 (82.0330%), Attack Success Rate:0/444748(0.000)
+___Train Local_Simple,  epoch   1, local model ND, internal_epoch   1,  Average loss: 0.0159, Accuracy: 1373/2822 (48.6534%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.9241, Accuracy: 190183/444748 (42.7620%), Attack Success Rate:0/444748(0.000)
+___Train Local_Simple,  epoch   1, local model WY, internal_epoch   1,  Average loss: 0.0157, Accuracy: 1709/3752 (45.5490%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.8537, Accuracy: 235868/444748 (53.0341%), Attack Success Rate:0/444748(0.000)
+___Train Local_Simple,  epoch   1, local model WI, internal_epoch   1,  Average loss: 0.0135, Accuracy: 13337/23488 (56.7822%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.6155, Accuracy: 357904/444748 (80.4734%), Attack Success Rate:0/444748(0.000)
+___Train Local_Simple,  epoch   1, local model MT, internal_epoch   1,  Average loss: 0.0158, Accuracy: 2226/4970 (44.7887%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.8588, Accuracy: 237898/444748 (53.4905%), Attack Success Rate:0/444748(0.000)

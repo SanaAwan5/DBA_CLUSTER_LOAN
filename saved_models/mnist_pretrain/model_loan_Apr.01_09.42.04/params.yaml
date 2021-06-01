@@ -1,0 +1,106 @@
+0_poison_epochs:
+- 11
+0_poison_trigger_names:
+- last_fico_range_high
+- last_fico_range_low
+0_poison_trigger_values:
+- 10
+- 80
+1_poison_epochs:
+- 13
+1_poison_trigger_names:
+- pub_rec_bankruptcies
+- pub_rec
+1_poison_trigger_values:
+- 20
+- 100
+2_poison_epochs:
+- 15
+2_poison_trigger_names:
+- acc_now_delinq
+- tax_liens
+2_poison_trigger_values:
+- 20
+- 100
+adversary_list:
+- CT
+- MO
+- TN
+aggr_epoch_interval: 1
+aggregation_methods: mean
+alpha_loss: 1
+baseline: false
+batch_size: 64
+batch_track_distance: false
+centralized_test_trigger: true
+current_time: Apr.01_09.42.04
+decay: 0.0005
+diff_privacy: false
+dirichlet_alpha: 0.9
+environment_name: loan_DBA
+epochs: 70
+eta: 0.1
+fg_use_memory: true
+folder_path: saved_models/mnist_pretrain/model_loan_Apr.01_09.42.04
+geom_median_maxiter: 10
+internal_epochs: 1
+internal_poison_epochs: 1
+is_poison: true
+is_random_adversary: true
+is_random_namelist: true
+log_interval: 2
+lr: 0.001
+modify_poison: false
+momentum: 0.9
+no_models: 10
+noise_level: 0.01
+number_of_total_participants: 50
+participants_namelist:
+- NJ
+- IL
+- PA
+- WA
+- CA
+- TX
+- CO
+- GA
+- VA
+- NY
+poison_decay: 0.005
+poison_epochs:
+- 1
+poison_image_id: 2775
+poison_image_id_2: 1605
+poison_label_swap: 7
+poison_lr: 0.0005
+poison_momentum: 0.9
+poison_step_lr: true
+poison_test_repeat: 1000
+poison_type: wall
+poisoning_per_batch: 64
+random_compromise: false
+report_poison_loss: false
+report_test_loss: false
+report_train_loss: false
+results_json: true
+resumed_model: false
+resumed_model_name: loan_pretrain/model_last.pt.tar.epoch_9
+s_norm: 1000000
+sampling_dirichlet: false
+save_model: false
+save_on_epochs:
+- 11
+- 13
+- 15
+- 20
+scale_weights_poison: 30
+sigma: 0.01
+size_of_secret_dataset: 200
+test_batch_size: 64
+track_clusters: false
+track_distance: false
+trigger_num: 3
+type: loan
+vis_train: false
+vis_train_batch_loss: false
+vis_trigger_split_test: true

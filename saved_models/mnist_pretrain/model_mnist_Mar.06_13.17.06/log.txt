@@ -1,0 +1,14 @@
+current path: saved_models/mnist_pretrain/model_mnist_Mar.06_13.17.06
+Loading data
+build_classes_dict done
+train loaders done
+get poison test loader
+load data done
+create model done
+Poisoned following participants: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+We use following environment for graphs:  mnist_DBA
+Server Epoch:1 choose agents : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].
+___Train Local_Simple,  epoch   1, local model 0, internal_epoch   1,  Average loss: 0.0423, Accuracy: 246/353 (69.6884%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 3.4312, Accuracy: 1135/10000 (11.3500%), Attack Success Rate:10/10000(0.100)
+poison local model 1 index 0 
+poison_now

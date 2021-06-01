@@ -1,0 +1,57 @@
+current path: saved_models/mnist_pretrain/model_loan_Apr.04_11.20.41
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+load data done
+create model done
+Poisoned following participants: ['CA', 'MA', 'ME']
+We use following environment for graphs:  loan_DBA
+Server Epoch:1 choose agents : ['SC', 'NC', 'CA', 'OR', 'NH', 'NM', 'AL', 'SD', 'TN', 'IN'].

@@ -1,0 +1,2 @@
+current path: saved_models/mnist_pretrain/model_mnist_Mar.06_13.42.00
+Loading data

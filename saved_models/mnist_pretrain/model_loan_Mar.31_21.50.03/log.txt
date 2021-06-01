@@ -1,0 +1,65 @@
+current path: saved_models/mnist_pretrain/model_loan_Mar.31_21.50.03
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+Loading data
+load data done
+create model done
+Poisoned following participants: ['CT', 'MO', 'TN']
+We use following environment for graphs:  loan_DBA
+Server Epoch:1 choose agents : ['NE', 'IL', 'CT', 'NV', 'DC', 'MS', 'NY', 'MT', 'ID', 'IA'].
+___Train Local_Simple,  epoch   1, local model NE, internal_epoch   1,  Average loss: 0.0106, Accuracy: 3832/6255 (61.2630%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.6805, Accuracy: 236803/452160 (52.3715%), Attack Success Rate:0/452160(0.000)
+___Train Local_Simple,  epoch   1, local model IL, internal_epoch   1,  Average loss: 0.0084, Accuracy: 52982/72938 (72.6398%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.2910, Accuracy: 405861/452160 (89.7605%), Attack Success Rate:0/452160(0.000)
+poison local model CT will poison epochs: [11]
+___Train Local_Simple,  epoch   1, local model CT, internal_epoch   1,  Average loss: 0.0106, Accuracy: 17727/28628 (61.9219%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.5604, Accuracy: 365528/452160 (80.8404%), Attack Success Rate:0/452160(0.000)

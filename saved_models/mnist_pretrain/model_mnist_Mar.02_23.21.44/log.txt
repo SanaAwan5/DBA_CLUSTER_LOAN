@@ -1,0 +1,3 @@
+current path: saved_models/mnist_pretrain/model_mnist_Mar.02_23.21.44
+Loading data
+build_classes_dict done
